@@ -9,7 +9,7 @@ I used data collected from FiveThirtyEight which includes a record of all matche
 I webscraped tables from Krysstal.com that included a table of all Premier League(or English Top Flight) Champions since the beginning of the competition. From this data I was able to display running totals of championships won.
 
 ### Kaggle.com
-From Kaggle I used a CSV including the final league tables from the top English league from before the 1890ss to the 2016 season. This included the standard data provided in most league tables, such as games played, points, goal difference, wins, draws, losses, etc.
+From Kaggle I used a CSV including the final league tables from the top English league from before the 1890s to the 2016 season. This included the standard data provided in most league tables, such as games played, points, goal difference, wins, draws, losses, etc.
 
 ## Initial EDA
 After importing the data, I decided to process my data through increasing degrees of specificity. Some of these tables are not fully complete with labels and proper formatting.
