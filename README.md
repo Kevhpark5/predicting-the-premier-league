@@ -45,3 +45,24 @@ After observing this data I wanted to see if there is a relationship between Goa
 ![GD](data/images/gdvspts.png)
 
 It seems as though there are some similarities between the two, but it is not a perfect relationship. I plan to see if hypothesis testing can help discover some information about this data.
+
+### Wednesday Progress
+I created plots demonstrating three "Big Six" teams' performances against other "Big Six" teams to explore the importance of performance against other title contenders . Two of the plots show teams who won the league that season(Chelsea and Manchester City) while the third shows a team which underperformed that season(Manchester United).
+
+![bigsix1](data/images/mancitybigsix.png)
+![bigsix2](data/images/chelseabigsix.png)
+![bigsix3](data/images/manutdbigsix.png)
+
+I wanted to further explore the importance of goal difference in a team's performance in the league. I created a histogram of both Goal Difference and Final Season Points. Goal Difference is centered around 0, as the net Goal Difference should be 0 before scaling the data. Points centers around the 40-50 mark with some skewedness towards the higher point ranges.
+
+![hist](data/images/gdptsdist.png)
+
+To further see the relationship between Goal Difference and Points, I plotted league winners' Points versus Goal Differences in a scatter. 
+
+![plot](data/images/gdwinschamps.png)
+
+I then compared this to the distribution of the entire league throughout the years. League winning teams' data are displayed in black bold dots. There seemed to be two distinct trends appearing in the data, so I decided to plot Wins versus Goal Differences, which showed a much stronger relationship. I believe this is due to the impact of ties in games. With wins, each team receives an average of 1.5 points, while in a draw teams receive an average of 1 point, which results in a less steep curve.
+
+![plot2](data/images/gdwins.png)
+
+The axes will be properly labeled as soon as possible.
